@@ -1,0 +1,59 @@
+/* historystyles.css */
+
+.history-container {
+    width: 100%;
+    height: 100%;
+    background-color: #FF3CAC;
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.historyPage-title {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Manrope', sans-serif;
+    color: #FFF;
+    padding: 0 10%;
+    margin-top: 120px;
+    overflow: hidden;
+}
+
+.previous-trans-title {
+    background-color: rgb(80, 80, 238) !important;
+    box-shadow: none !important;
+    border-radius: 10px !important;
+}
+
+.MuiDivider-root {
+    height: 3px; 
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.paper {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Styling for transaction details */
+.transaction-details {
+    margin-bottom: 10px;
+}
+
+.transaction-details h6 {
+    margin-bottom: 5px;
+}
+
+.transaction-details p {
+    margin: 0;
+}
